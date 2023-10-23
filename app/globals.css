@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html, :root {
+  height: 100%;
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
